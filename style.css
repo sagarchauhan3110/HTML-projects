@@ -15,5 +15,6 @@ body{
 }
 input [type="button"]
 {
-    background-color: rgb(56, 10, 149);
+    background-color: red;
 }
+td
