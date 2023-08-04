@@ -7,3 +7,13 @@ table base{
 table ::backdrop{
     color: red;
 }
+table {
+    background-color: black;
+}
+body{
+    background-color: bisque;
+}
+input [type="button"]
+{
+    background-color: rgb(56, 10, 149);
+}
