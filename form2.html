@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">name:</label>
+        <input type="text"placeholder="your name"><br><br>
+        <label for="email">email:</label>
+        <input type="email"placeholder="your email"><br><br>
+        <label for="password">password</label>
+        <input type="password"><br><br>
+        <label for="phone number">phone number:</label> 
+        <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required><br><br>
+       <label for="Gender">Gender</label>
+        <input type="radio" name="Male" placeholder="Male">Male
+        <input type="radio" name="Female" placeholder="Female">Female
+        <input type="radio" name="others" placeholder="others">others<br><br>
+        <label for="language">language</label>
+        <select name="language" id="language">
+            <option value="">Select language</option>
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Russian">Russian</option></select><br><br>
+            <label for="zip code">zip code:</label>
+            <input id="zip code" name="zip code" type="text" inputmode="numeric" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$"><br><br>
+            <label for="about">about:</label>
+            <input type="about" placeholder=" "><br><br>
+            <button type="submit"></button>
+            
+
+
+
+    </form>
+</body>
+</html>

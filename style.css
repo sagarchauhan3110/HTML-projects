@@ -1,0 +1,9 @@
+table{
+    color: gray;
+}
+table base{
+    color: black;
+}
+table ::backdrop{
+    color: red;
+}
